@@ -23,7 +23,7 @@ class _LoginFormState extends State<LoginForm> {
           decoration: const BoxDecoration(
             image: DecorationImage(
               image: AssetImage('assets/images/loginFormIMG.jpg'),
-              fit: BoxFit.fitHeight,
+              fit: BoxFit.fill,
               colorFilter: ColorFilter.mode(Colors.black54, BlendMode.darken),
             ),
           ),
@@ -39,7 +39,7 @@ class _LoginFormState extends State<LoginForm> {
                       margin: EdgeInsets.symmetric(vertical: 50.0),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10),
-                        image: DecorationImage(
+                        image: const DecorationImage(
                           image: AssetImage('assets/images/loginLogo.jpg'),
                         ),
                       ),
@@ -47,7 +47,7 @@ class _LoginFormState extends State<LoginForm> {
                       width: 150.0,
                     ),
                     Container(
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         image: DecorationImage(
                           image: AssetImage('assets/images/spectrumLogo.jpg'),
                           fit: BoxFit.contain,
@@ -55,7 +55,7 @@ class _LoginFormState extends State<LoginForm> {
                       ),
                       height: 80.0,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 30.0,
                     ),
                     Padding(
@@ -161,8 +161,8 @@ class _LoginFormState extends State<LoginForm> {
                         ),
                       ),
                     ),
-                    SizedBox(
-                      height: 20.0S,
+                    const SizedBox(
+                      height: 20.0,
                     )
                   ],
                 ),
