@@ -59,7 +59,7 @@ class _DrawerFormState extends State<DrawerForm> {
               ),
             ),
             CustomTiles(
-                icon: Icons.home,
+                icon: Icons.home_outlined,
                 text: 'Home',
                 ontap: () {
                   Navigator.push(
@@ -82,7 +82,7 @@ class _DrawerFormState extends State<DrawerForm> {
               },
             ),
             CustomTiles(
-              icon: Icons.article_sharp,
+              icon: Icons.assignment_outlined,
               text: 'Saved Drafts',
               ontap: () {
                 Navigator.push(
